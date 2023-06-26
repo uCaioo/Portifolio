@@ -1,0 +1,242 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos do menu */
+header {
+  background-color: #2DA63F;
+  padding: 20px 0;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+
+/* Estilos da seção "Sobre Mim" */
+#sobre {
+  background-color: #0D0D0D;
+  padding: 40px 0;
+}
+
+.sobre-content {
+  text-align: center;
+}
+
+.sobre-content img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sobre-content h2 .nome {
+  color: #F2F2F2; /* Cor para "Caio Medeiros" */
+}
+
+.sobre-content h2 {
+  color: #2DA63F; /* Cor para "Desenvolvedor web & Mobile" */
+}
+
+.sobre-content p {
+  color: #F2F2F2;
+  margin-top: 10px;
+}
+
+/* Estilos da seção "Projetos" */
+#projetos {
+  background-color: #0D0D0D;
+  padding: 40px 0;
+  
+}
+
+.projetos-content {
+  text-align: center;
+  color: #2DA63F;
+  font-size: 16px;
+}
+
+.projeto-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+}
+
+.projeto-card {
+  width: 300px;
+  padding: 20px;
+  background-color: #2DA63F;
+  border: solid 2px #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.projeto-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.projeto-card h3 {
+  color: #0D0D0D;
+}
+
+.projeto-card p {
+  color: #fff;
+}
+
+.btn-conheca {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0D0D0D;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.btn-conheca:hover {
+  background-color: #fff;
+  color:#0D0D0D
+}
+
+/* Estilos da seção "Ferramentas" */
+#ferramentas {
+  background-color: #0D0D0D;
+  padding: 40px 0;
+}
+
+.ferramentas-content {
+  text-align
+
+: center;
+  color: #2DA63F;
+  font-size: 15px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.icon {
+  width: 200px;
+  margin: 20px;
+}
+
+.icon img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.icon p {
+  color: #F2F2F2;
+  margin-top: 10px;
+}
+
+/* Estilos da seção "Contato" */
+#contato {
+  background-color: #0D0D0D;
+  padding: 40px 0;
+}
+
+.contato-content {
+  text-align: center;
+  color: #2DA63F;
+  font-size: 15px;
+}
+
+.redes-sociais {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.redes-sociais li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.redes-sociais li a {
+  color: #F2F2F2;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+}
+
+.redes-sociais li a:hover {
+  background-color: #333;
+  color: #F2F2F2;
+}
+
+.redes-sociais li.whatsapp a:hover {
+  background-color: #25D366;
+}
+
+.redes-sociais li.github a:hover {
+  background-color: #262626;
+}
+
+.redes-sociais li.gmail a:hover {
+  background-color: #D44638;
+  color: #F2F2F2;
+}
+
+.redes-sociais li.linkedin a:hover {
+  background-color: #0A66C2;
+  color: #F2F2F2;
+}
+
+.redes-sociais li.instagram a:hover {
+  background-color: #E4405F;
+  color: #fff;
+}
+
+.contato-content p {
+  color: #F2F2F2;
+  margin-top: 10px;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #0D0D0D;
+  color: #2DA63F;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+}
+
